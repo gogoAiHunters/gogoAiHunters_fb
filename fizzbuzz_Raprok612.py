@@ -1,12 +1,7 @@
 # fizzbuzz_Raprok612.py
 
-for i in range(1, 31+1):
-    if i % 15 == 0:
-        print("fizzbuzz")
-    elif i % 3 == 0:
-        print("fizz")
-    elif i % 5 == 0:
-        print("buzz")
-    else:
-        print(i)
+# 팀장님 말대로 한줄
+
+for i in range(1, 15+1):
+    print("FizzBuzz" if i % 15 == 0 else "Fizz" if i % 3 == 0 else "Buzz" if i % 5 == 0 else i)
 
